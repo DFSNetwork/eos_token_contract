@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/joe/dfs-fork-pdd/token/include/token.hpp
+eosio/asset.hpp
+-
+eosio/eosio.hpp
+-
+eosio/system.hpp
+-
+string
+-
+
+/Users/joe/dfs-fork-pdd/token/src/token.cpp
+token.hpp
+-
+
