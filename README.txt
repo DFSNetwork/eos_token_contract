@@ -1,4 +1,4 @@
---- yfctoken Project ---
+--- a standard of token contract, fork from eosio ---
 
  - How to Build -
    - cd to 'build' directory
